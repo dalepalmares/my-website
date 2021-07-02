@@ -20,15 +20,15 @@
 
 // ** MySQL settings - You can get this info from your web host ** //
 
-if(strstr($_SERVER['SERVER_NAME'], 'fictional-university.local')) {
+if(strstr($_SERVER['SERVER_NAME'], 'dales-site.local')) {
 	define( 'DB_NAME', 'local' );
 	define( 'DB_USER', 'root' );
 	define( 'DB_PASSWORD', 'root' );
 	define( 'DB_HOST', 'localhost' );
 } else {
-	define( 'DB_NAME', 'dbsataoapeui04' );
-	define( 'DB_USER', 'u5tw5mgmokhvu' );
-	define( 'DB_PASSWORD', 'h2J}1#4k@36F' );
+	define( 'DB_NAME', 'dbaakuibyeorsc' );
+	define( 'DB_USER', 'ufd86grmo2ayz' );
+	define( 'DB_PASSWORD', 'c#(dg1sk_HG5' );
 	define( 'DB_HOST', '127.0.0.1' );
 }
 
