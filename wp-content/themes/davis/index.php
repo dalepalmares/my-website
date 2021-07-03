@@ -38,7 +38,7 @@
 
 			<?php $site_title_elem = is_front_page() ? 'h1' : 'div'; ?>
 			
-			<<?php echo $site_title_elem; ?> class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>"><?php bloginfo( 'name' ); ?></a></<?php echo $site_title_elem; ?>>
+			<<?php echo $site_title_elem; ?> class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>">Hullo</a></<?php echo $site_title_elem; ?>>
 
             <?php if ( get_bloginfo( 'description' ) ) : ?>
                 <p class="site-description"><?php bloginfo( 'description' ); ?></p>
