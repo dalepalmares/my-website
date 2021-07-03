@@ -38,7 +38,7 @@
 
 			<?php $site_title_elem = is_front_page() ? 'h1' : 'div'; ?>
 			
-			<<?php echo $site_title_elem; ?> class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>">Hullo</a></<?php echo $site_title_elem; ?>>
+			<<?php echo $site_title_elem; ?> class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>"><?php bloginfo( 'name' ); ?></a></<?php echo $site_title_elem; ?>>
 
             <?php if ( get_bloginfo( 'description' ) ) : ?>
                 <p class="site-description"><?php bloginfo( 'description' ); ?></p>
@@ -172,7 +172,6 @@
 	        <footer class="site-footer" role="contentinfo">
 		        
 		        <p>&copy; <?php echo date( 'Y' ); ?> <a href="<?php echo esc_url( home_url() ); ?>"><?php bloginfo( 'name' ); ?></a></p>
-		        <p><?php _e( 'Theme by', 'davis' ); ?> <a href="https://www.andersnoren.se">Anders Nor&eacute;n</a></p>
 		        
 	        </footer><!-- footer -->
 	        
