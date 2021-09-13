@@ -34,41 +34,6 @@
 
 	</header><!-- .entry-header -->
 
-	<?php
-	if ( has_post_thumbnail() && ! post_password_required() ) : 
-		?>
-
-		<figure class="featured-media section-inner i-a a-fade-up a-del-200">
-
-			<?php 
-			do_action( 'eksell_featured_media_start', $post->ID );
-			?>
-
-			<div class="media-wrapper">
-				<?php the_post_thumbnail(); ?>
-			</div><!-- .media-wrapper -->
-
-			<?php
-
-			$caption = get_the_post_thumbnail_caption();
-			
-			if ( $caption ) : 
-				?>
-
-				<figcaption><?php echo $caption; ?></figcaption>
-
-				<?php 
-			endif; 
-
-			do_action( 'eksell_featured_media_end', $post->ID );
-			
-			?>
-
-		</figure><!-- .featured-media -->
-
-		<?php 
-	endif; // has_post_thumbnail()
-	?>
 
 	<div class="post-inner section-inner mw-thin do-spot spot-fade-up a-del-200">
 
